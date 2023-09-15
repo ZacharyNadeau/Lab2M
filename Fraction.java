@@ -20,7 +20,7 @@ public class Fraction implements INumber {
 	}
 
 	@Override
-	public Fraction divide(Object input) {
+	public Object divide(Object input) {
 		return null;
 	}
 
@@ -30,7 +30,15 @@ public class Fraction implements INumber {
 	}
 	
 	@Override
-	public void print() {	
+	public void print() {
+	/*
+	 * Samuel Fickett
+	 * Prints out the Fraction as a String
+	 */
+	public void print() {
+		String str = "";
+		str += numerator + "/" + denominator;
+		System.out.println(str);
 	}
 	
 	public int compare(Fraction F) {
