@@ -1,5 +1,6 @@
 
 public interface INumber<T> {
+	// Made by: Samuel Fickett
 	T plus(T input);
 	
 	T minus(T input);
