@@ -1,2 +1,4 @@
 # Lab1STNA
-Lab 1 For Data Structures 
+Lab 0 For Data Structures 
+
+Running the main method from FracTest.java will provide multiple outputs from all of the methods 
