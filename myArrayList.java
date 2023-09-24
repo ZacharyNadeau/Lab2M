@@ -11,10 +11,12 @@ public class myArrayList {
 		}
 		return -1;
 	}
-	public static void add(int index, Fraction input) {
-		
+	public void add  (int index, Fraction input)
+    
+	{
+   		list.indexOf(i) = Fraction.input;
+    
 	}
-
 	public static Fraction remove(int index) {
 		
 		return new Fraction(0,0);
