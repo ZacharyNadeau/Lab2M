@@ -38,5 +38,10 @@ public class myArrayList {
     
     
     }
-
+	
+ public static Fraction remove(int index) {
+        if (index >= 0 && index < list.size()) {
+            return list.remove(index);
+    }
+    }
 }
