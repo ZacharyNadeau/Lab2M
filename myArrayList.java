@@ -4,10 +4,13 @@ public class myArrayList {
 	ArrayList<Fraction> list = new ArrayList<Fraction>(50);
 	
 	public static int indexOf(Fraction input) {
-		
-		return 0;
+		for (int i = 0; i < list.size(); ++i) {
+			if (list.get(i).compare(input) == 0) {
+				return i;
+			}
+		}
+		return -1;
 	}
-	
 	public static void add(int index, Fraction input) {
 		
 	}
